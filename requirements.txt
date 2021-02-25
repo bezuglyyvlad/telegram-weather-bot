@@ -1,0 +1,5 @@
+pytelegrambotapi==3.7.6
+requests~=2.25.1
+beautifulsoup4~=4.9.3
+vedis~=0.7.1
+python-dotenv~=0.15.0
