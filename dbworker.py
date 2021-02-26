@@ -1,5 +1,5 @@
-from vedis import Vedis
 import config
+from vedis import Vedis
 
 
 def get_value(db_file, user_id):
@@ -15,5 +15,5 @@ def set_value(db_file, user_id, value):
         try:
             db[user_id] = value
             return True
-        except:
+        finally:
             return False
